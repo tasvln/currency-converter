@@ -65,7 +65,7 @@ export default function App() {
               currencyOptions={currencyOptions}
               selectedCurrency={fromCurrency}
               Currency={e => setFromCurrency(e.target.value)}
-              onChangeAmount={handleFromAmountChange}
+              Amount={handleFromAmountChange}
               amount={fromAmount}
             />
           </div>
@@ -75,7 +75,7 @@ export default function App() {
               currencyOptions={currencyOptions}
               selectedCurrency={toCurrency}
               Currency={e => setToCurrency(e.target.value)}
-              onChangeAmount={handleToAmountChange}
+              Amount={handleToAmountChange}
               amount={toAmount}
             />
           </div>
