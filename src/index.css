@@ -5,7 +5,8 @@ body {
 }
 
 input,
-button {
+button,
+select {
   outline: none;
   border: none;
 }
@@ -22,13 +23,24 @@ button {
   text-align: center;
 }
 
-.bar-font {
+.bar-font,
+select,
+input {
   font-family: Barlow;
 }
 
 @media (min-width: 300px) and (max-width: 600px) {
   .mx-20 {
     margin: 2rem 2rem;
+  }
+  .w-fu {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  .mx-20 {
+    margin: 2rem 10rem;
   }
   .w-fu {
     width: 100%;
